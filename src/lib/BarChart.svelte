@@ -33,6 +33,10 @@
     var data = generate();
 
     var layout = {
+      yaxis: {
+        title: "Rack Temperature",
+        zeroline: false,
+      },
       barmode: "group",
       legend: {
         itemwidth: 10,

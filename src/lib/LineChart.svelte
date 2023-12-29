@@ -37,6 +37,10 @@
         itemwidth: 10,
         valign: "top",
       },
+      yaxis: {
+        title: "Rack Temperature",
+        zeroline: false,
+      },
       xaxis:{
         font: {
           size:12
